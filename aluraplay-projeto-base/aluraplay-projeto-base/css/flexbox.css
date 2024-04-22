@@ -52,6 +52,15 @@
 
 }
 
+
+/*VIDEOS*/
+
+
+.videos__item {
+    height: 303px;
+    width: 280px;
+}
+
 /*Rodapé*/
 .rodape__container {
     display: flex;
