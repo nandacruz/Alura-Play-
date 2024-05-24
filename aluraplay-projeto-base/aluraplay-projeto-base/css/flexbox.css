@@ -55,10 +55,21 @@
 
 /*VIDEOS*/
 
+.videos__container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;    
+}
+
+
+
 
 .videos__item {
     height: 303px;
     width: 280px;
+
+    /*Para itens, ajusta de acordo com o espaço disponível*/
+    flex-grow: 1;
 }
 
 /*Rodapé*/
